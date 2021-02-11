@@ -8,6 +8,11 @@
     // THREE
     h1 {
         color: #ddd;
+        // BONUS ONE
+        &:hover {
+            @extend %center;
+            text-decoration: underline;
+        }
     }
     // SEVEN
     h2 {
@@ -26,6 +31,8 @@
         text-decoration: underline;
         // TWELVE
         @extend %center;
+        // BONUS TWO
+        margin-bottom: calc(25px * 4);
     }
     // TEN
     h2 {
