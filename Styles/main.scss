@@ -5,8 +5,10 @@
 .main {
     background-color: tan;
     
+
     // THREE
     h1 {
+        @include flex(center, flex-start);
         color: #ddd;
         // BONUS ONE
         &:hover {
@@ -16,9 +18,12 @@
     }
     // SEVEN
     h2 {
+        @include flex(center, center);
+        
         background: $brown1;
     }
     h3 {
+        @include flex(center, flex-end);
         color: $brown1;
     }
 }
